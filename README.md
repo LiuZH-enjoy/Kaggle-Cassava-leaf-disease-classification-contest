@@ -18,6 +18,11 @@ $$
 $$
 Γ(x) = ∫_0^\infty t^{x-1}e^{-t}dt
 $$
+
+![Beta_PDF](https://github.com/LiuZH-enjoy/Kaggle-Cassava-leaf-disease-classification-contest/blob/master/imgs/Beta_PDF.png)
+
+![Beta_CDF](https://github.com/LiuZH-enjoy/Kaggle-Cassava-leaf-disease-classification-contest/blob/master/imgs/Beta_CDF.png)
+
 **重点：** **Beta 分布的随机变量的定义域在 [0,1] 之间。**  
 
 #### 图像的离散傅立叶变换  
@@ -55,11 +60,11 @@ $$
 在一般情况下，batchsize越大，模型学习越快，越容易收敛。但是当 batchsize 变⼤后，样本越多，中间临时变量就会越来越多，很可能导致显存不足，这时候该如何解决？
 
 1. 多GPU
-
+![mutil_GPU](https://github.com/LiuZH-enjoy/Kaggle-Cassava-leaf-disease-classification-contest/blob/master/imgs/mutil_GPU.png)
    
 
 2. 单个GPU或者CPU
-
+![single_GPUorCPU](https://github.com/LiuZH-enjoy/Kaggle-Cassava-leaf-disease-classification-contest/blob/master/imgs/single_GPUorCPU.png)
 
 
 ### 数据增强：MixUp，FMix，CutMix
