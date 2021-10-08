@@ -15,8 +15,6 @@ $$
 
 
 
-![image-20211008115641278](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20211008115641278.png)
-
 - **MixUp**
 
   公式：
@@ -46,4 +44,3 @@ $$
 
   CutMix是一个PS技术很差的人把猫狗合在一起, 直接就是矩形框粘贴, 而Fmix是一个技术高超的PSer. 它可以通过融合通道颜色来完美的把图片剪切过去.
 
-![image-20211008125422253](C:\Users\lzh\AppData\Roaming\Typora\typora-user-images\image-20211008125422253.png)
